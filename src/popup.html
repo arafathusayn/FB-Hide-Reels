@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <title>FB Hide Reels v<span class="app_version"></span></title>
+    <meta charset="utf-8" />
+  </head>
 
-<head>
-  <title>Facebook Hide Recommendations and Reels v<span class="app_version"></span></title>
-  <meta charset="utf-8" />
-</head>
+  <body style="width: 600px">
+    <h2>FB Hide Reels v<span class="app_version"></span></h2>
+    <p>Set query selector for the item you want hide</p>
 
-<body style="width: 600px;">
-  <h2>Facebook Hide Recommendations and Reels v<span class="app_version"></span></h2>
-  <p>Check the below to show the item.</p>
-  <p>
-    Reels and short videos:
-    <input type="checkbox" id="reels"></input>
-  </p>
-  <p>
-    Suggested for you / Suggestions:
-    <input type="checkbox" id="suggestions"></input>
-  </p>
-  <p>
-    Friend commented on X / CommentedOn:
-    <input type="checkbox" id="commentedOn"></input>
-  </p>
-  <p>
-    Friend recommendations:
-    <input type="checkbox" id="peopleMayKnow"></input>
-  </p>
-  <script src="popup.js"></script>
-</body>
+    <p>
+      Reels Label in Menu:
+      <input
+        type="text"
+        id="reels_header"
+        value='[role="tablist"] div:nth-child(2)'
+      />
+      Index:
+      <input type="text" id="i_reels_header" value="0" style="width: 30px" />
+    </p>
+    <p>
+      Reels Body:
+      <input type="text" id="reels" value='[aria-label*="Reels"]' /> Index:
+      <input type="text" id="i_reels" value="0" style="width: 30px" />
+    </p>
 
+    <script src="popup.js"></script>
+  </body>
 </html>
