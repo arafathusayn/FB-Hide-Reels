@@ -1,5 +1,7 @@
 // popup.js
 
+chrome = chrome || browser;
+
 for (let elem of document.getElementsByClassName("app_version")) {
   elem.innerText = (chrome || browser).runtime.getManifest().version;
 }

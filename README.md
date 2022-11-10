@@ -1,8 +1,8 @@
-# This extension hides Reels and recommendations on Facebook.com
+# This extension hides Reels on Facebook.com
 
-This extension looks for certain keys in Facebooks feed and hides elements that contain `Reels and short videos` and `Suggested for you`.
+This extension looks for certain keys in Facebooks feed and hides elements that contain `Reels`.
 
-It places a small banner in the items place to let you know what was hidden.
+How to use:
 
-Chrome web store: [https://chrome.google.com/webstore/detail/pfkcihjlfejenpmhkhgbannfhofclncj/](https://chrome.google.com/webstore/detail/pfkcihjlfejenpmhkhgbannfhofclncj/)  
-Firefox web store: [https://addons.mozilla.org/en-US/firefox/addon/fb-hide-recomm-and-reels/](https://addons.mozilla.org/en-US/firefox/addon/fb-hide-recomm-and-reels/)
+- Download the repo.
+- Use "Developer Mode" and "Load Unpacked" option in Extension settings to load [src](./src/) folder.
